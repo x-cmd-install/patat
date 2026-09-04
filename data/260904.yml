@@ -7,7 +7,7 @@ about:
   head: 867b2ac
   archived: false
   latestVersion: v0.15.2.0
-  collectedAt: 2026-09-04T20:01:55Z
+  collectedAt: 2026-09-04T20:42:05Z
 timeline:
   created: 2016-09-23
   lastCommit: 2026-06-25
@@ -83,6 +83,54 @@ total:
   openIssue: 20
   commit: 401
 ---
+path: /home/runner/.x-repo/github.com/jaspervdj/patat
+collectedAt: 2026-09-04T20:42:06Z
+loc:
+  Haskell:
+    code: 4079
+    comments: 658
+    blanks: 967
+    files: 49
+  Cabal:
+    code: 160
+    comments: 2
+    blanks: 17
+    files: 1
+  Makefile:
+    code: 64
+    comments: 7
+    blanks: 16
+    files: 1
+  Nix:
+    code: 30
+    comments: 0
+    blanks: 2
+    files: 1
+  Xml:
+    code: 22
+    comments: 0
+    blanks: 0
+    files: 1
+  Sh:
+    code: 17
+    comments: 1
+    blanks: 2
+    files: 1
+  Markdown:
+    code: 0
+    comments: 1891
+    blanks: 825
+    files: 55
+  Text:
+    code: 0
+    comments: 4
+    blanks: 3
+    files: 1
+total:
+  code: 4445
+  comments: 2786
+  blanks: 1896
+  files: 110
 ---
 date: "2026-08-24"
 repo:
