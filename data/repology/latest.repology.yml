@@ -1,3 +1,68 @@
+- repo: parrot
+  subrepo: parrot/main
+  srcname: patat
+  binnames:
+    - patat
+  visiblename: patat
+  version: 0.14.1.0
+  origversion: 0.14.1.0-1
+  status: outdated
+  maintainers:
+    - felix@debian.org
+  categories:
+    - misc
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: patat
+  binnames:
+    - patat
+  visiblename: patat
+  version: 0.8.2.1
+  origversion: 0.8.2.1-1
+  status: outdated
+  maintainers:
+    - felix+debian@gueux.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: patat
+  binnames:
+    - patat
+  visiblename: patat
+  version: 0.14.1.0
+  origversion: 0.14.1.0-1
+  status: outdated
+  maintainers:
+    - felix@debian.org
+  categories:
+    - misc
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: patat
+  binnames:
+    - patat
+  visiblename: patat
+  version: 0.8.8.0
+  origversion: 0.8.8.0-1
+  status: outdated
+  maintainers:
+    - felix@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: patat
+  binnames:
+    - patat
+  visiblename: patat
+  version: 0.14.1.0
+  origversion: 0.14.1.0-1
+  status: outdated
+  maintainers:
+    - felix@debian.org
+  categories:
+    - misc
 - repo: aur
   srcname: patat-bin
   binname: patat-bin
@@ -10,6 +75,19 @@
     - jaspervdj@aur
   licenses:
     - GPL2
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: patat
+  binnames:
+    - patat
+  visiblename: patat
+  version: 0.14.1.0
+  origversion: 0.14.1.0-1
+  status: outdated
+  maintainers:
+    - felix@debian.org
+  categories:
+    - misc
 - repo: debian_11
   subrepo: bullseye/main
   srcname: patat
@@ -71,7 +149,7 @@
     - patat
   visiblename: patat
   version: 0.15.2.0
-  origversion: 0.15.2.0-2
+  origversion: 0.15.2.0-3
   status: newest
   maintainers:
     - pkg-haskell-maintainers@lists.alioth.debian.org
@@ -110,7 +188,7 @@
     - patat
   visiblename: patat
   version: 0.15.2.0
-  origversion: 0.15.2.0-2
+  origversion: 0.15.2.0-3
   status: newest
   maintainers:
     - pkg-haskell-maintainers@lists.alioth.debian.org
@@ -153,6 +231,19 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: patat
+  binnames:
+    - patat
+  visiblename: patat
+  version: 0.8.6.1
+  origversion: 0.8.6.1-1
+  status: outdated
+  maintainers:
+    - felix+debian@gueux.org
+  categories:
+    - misc
 - repo: fedora_39
   subrepo: release
   srcname: patat
@@ -335,97 +426,6 @@
   status: outdated
   maintainers:
     - felix+debian@gueux.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: patat
-  binnames:
-    - patat
-  visiblename: patat
-  version: 0.14.1.0
-  origversion: 0.14.1.0-1
-  status: outdated
-  maintainers:
-    - felix@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: patat
-  binnames:
-    - patat
-  visiblename: patat
-  version: 0.14.1.0
-  origversion: 0.14.1.0-1
-  status: outdated
-  maintainers:
-    - felix@debian.org
-  categories:
-    - misc
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: patat
-  binnames:
-    - patat
-  visiblename: patat
-  version: 0.8.2.1
-  origversion: 0.8.2.1-1
-  status: outdated
-  maintainers:
-    - felix+debian@gueux.org
-  categories:
-    - misc
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: patat
-  binnames:
-    - patat
-  visiblename: patat
-  version: 0.8.6.1
-  origversion: 0.8.6.1-1
-  status: outdated
-  maintainers:
-    - felix+debian@gueux.org
-  categories:
-    - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: patat
-  binnames:
-    - patat
-  visiblename: patat
-  version: 0.14.1.0
-  origversion: 0.14.1.0-1
-  status: outdated
-  maintainers:
-    - felix@debian.org
-  categories:
-    - misc
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: patat
-  binnames:
-    - patat
-  visiblename: patat
-  version: 0.8.8.0
-  origversion: 0.8.8.0-1
-  status: outdated
-  maintainers:
-    - felix@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: patat
-  binnames:
-    - patat
-  visiblename: patat
-  version: 0.14.1.0
-  origversion: 0.14.1.0-1
-  status: outdated
-  maintainers:
-    - felix@debian.org
   categories:
     - misc
 - repo: raspbian_testing
