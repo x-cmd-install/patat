@@ -26,13 +26,13 @@ Total: **4,372** lines of code across **53** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.6 / 10**
+Overall score: **3.4 / 10**
 
 Lowest-scoring checks:
 
-- **Maintained** (4/10) — 2 commit(s) and 3 issue activity found in the last 90 days -- score normalized to 4
 - **Code-Review** (1/10) — Found 4/29 approved changesets -- score normalized to 1
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Maintained** (2/10) — 1 commit(s) and 2 issue activity found in the last 90 days -- score normalized to 2
 
 ## Source
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-16 | 0 | 0 | 0 | 0 | 1 | 0 |
-| 90d | 2026-06-16 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last180d | 2026-03-18 | 0 | 1 | 0 | 1 | 2 | 0 |
-| 360d | 2025-09-19 | 0 | 2 | 0 | 2 | 5 | 0 |
-| last720d | 2024-09-24 | 8 | 12 | 0 | 8 | 9 | 47 |
+| 30d | 2026-08-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-17 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 90d | 2026-06-17 | 0 | 0 | 0 | 0 | 2 | 1 |
+| last180d | 2026-03-19 | 0 | 1 | 0 | 1 | 2 | 2 |
+| 360d | 2025-09-20 | 0 | 2 | 0 | 2 | 5 | 8 |
+| last720d | 2024-09-25 | 8 | 12 | 0 | 8 | 9 | 47 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for patat lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T06:17:33Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T06:21:58Z._
