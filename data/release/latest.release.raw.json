@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 31425914,
       "digest": "sha256:c1e7705810dcaf5cb551e2bb8e9d1b3ad2c6cbf7485b556bb59ed48b983a60c4",
-      "download_count": 33,
+      "download_count": 34,
       "created_at": "2025-08-06T18:14:36Z",
       "updated_at": "2025-08-06T18:14:38Z",
       "browser_download_url": "https://github.com/jaspervdj/patat/releases/download/v0.15.2.0/patat-v0.15.2.0-darwin-arm64.zip"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 15642448,
       "digest": "sha256:dae29542cccc9a2d705aef43fe709666af8d89bb556848f2d9bba2e3917df579",
-      "download_count": 534,
+      "download_count": 535,
       "created_at": "2025-08-06T18:14:36Z",
       "updated_at": "2025-08-06T18:14:37Z",
       "browser_download_url": "https://github.com/jaspervdj/patat/releases/download/v0.15.2.0/patat-v0.15.2.0-linux-x86_64.tar.gz"
