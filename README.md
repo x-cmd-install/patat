@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-06 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-07 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-09 | 0 | 1 | 0 | 1 | 2 | 2 |
-| 360d | 2025-11-10 | 0 | 2 | 0 | 1 | 5 | 5 |
-| last720d | 2024-11-15 | 6 | 11 | 0 | 6 | 9 | 36 |
+| 30d | 2026-10-07 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-07 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-08 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-10 | 0 | 1 | 0 | 1 | 2 | 2 |
+| 360d | 2025-11-11 | 0 | 2 | 0 | 1 | 5 | 5 |
+| last720d | 2024-11-16 | 6 | 11 | 0 | 6 | 9 | 36 |
 
 ## Release assets
 
@@ -94,4 +94,4 @@ Install metadata for patat lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T07:50:17Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T08:01:55Z._
