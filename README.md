@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,748 · **Forks**: 67 · **Open issues**: 90 · **Contributors**: 23
+- **Stars**: 2,748 · **Forks**: 66 · **Open issues**: 90 · **Contributors**: 23
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-08 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-09 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-11 | 0 | 1 | 0 | 1 | 2 | 2 |
-| 360d | 2025-11-12 | 0 | 2 | 0 | 1 | 5 | 5 |
-| last720d | 2024-11-17 | 6 | 11 | 0 | 6 | 9 | 36 |
+| 30d | 2026-10-09 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-09 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-12 | 0 | 1 | 0 | 1 | 2 | 2 |
+| 360d | 2025-11-13 | 0 | 2 | 0 | 1 | 5 | 5 |
+| last720d | 2024-11-18 | 6 | 11 | 0 | 6 | 9 | 36 |
 
 ## Release assets
 
@@ -94,4 +94,4 @@ Install metadata for patat lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T07:19:41Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T07:04:26Z._
