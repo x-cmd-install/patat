@@ -1,3 +1,17 @@
+- repo: homebrew
+  srcname: patat
+  visiblename: patat
+  version: 0.15.2.0
+  origversion: null
+  status: newest
+  summary: Terminal-based presentations using Pandoc
+- repo: homebrew
+  srcname: patat
+  visiblename: patat
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Terminal-based presentations using Pandoc
 - repo: aur
   srcname: patat-bin
   binname: patat-bin
@@ -154,25 +168,6 @@
   categories:
     - Unspecified
 - repo: fedora_39
-  subrepo: release
-  srcname: patat
-  binnames:
-    - patat
-    - ghc-patat
-    - ghc-patat-devel
-    - ghc-patat-prof
-    - patat-debuginfo
-    - patat-debugsource
-  visiblename: patat
-  version: 0.8.9.0
-  origversion: 0.8.9.0-1.fc39
-  status: legacy
-  summary: Terminal-based presentations using Pandoc
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: updates
   srcname: patat
   binnames:
@@ -186,6 +181,25 @@
   version: 0.11.0.0
   origversion: 0.11.0.0-1.fc39
   status: outdated
+  summary: Terminal-based presentations using Pandoc
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: release
+  srcname: patat
+  binnames:
+    - patat
+    - ghc-patat
+    - ghc-patat-devel
+    - ghc-patat-prof
+    - patat-debuginfo
+    - patat-debugsource
+  visiblename: patat
+  version: 0.8.9.0
+  origversion: 0.8.9.0-1.fc39
+  status: legacy
   summary: Terminal-based presentations using Pandoc
   licenses:
     - GPL-2.0-or-later
@@ -295,20 +309,6 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
-- repo: homebrew
-  srcname: patat
-  visiblename: patat
-  version: 0.15.2.0
-  origversion: null
-  status: newest
-  summary: Terminal-based presentations using Pandoc
-- repo: homebrew
-  srcname: patat
-  visiblename: patat
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Terminal-based presentations using Pandoc
 - repo: kali_rolling
   subrepo: main
   srcname: patat
@@ -338,7 +338,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: patat
   binnames:
     - patat
@@ -351,7 +351,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: patat
   binnames:
     - patat
@@ -557,6 +557,21 @@
   visiblename: patat
   version: 0.15.2.0
   origversion: 0.15.2.0-2
+  status: newest
+  maintainers:
+    - pkg-haskell-maintainers@lists.alioth.debian.org
+    - felix@debian.org
+    - swt@techie.net
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04_proposed
+  subrepo: tenacious-proposed/universe
+  srcname: patat
+  binnames:
+    - patat
+  visiblename: patat
+  version: 0.15.2.0
+  origversion: 0.15.2.0-3
   status: newest
   maintainers:
     - pkg-haskell-maintainers@lists.alioth.debian.org
