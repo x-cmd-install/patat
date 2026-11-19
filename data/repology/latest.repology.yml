@@ -1,72 +1,27 @@
-- repo: raspbian_oldstable
+- repo: deepin_unstable
   subrepo: main
   srcname: patat
   binnames:
     - patat
   visiblename: patat
-  version: 0.8.8.0
-  origversion: 0.8.8.0-1
+  version: 0.8.2.1
+  origversion: 0.8.2.1-1
   status: outdated
   maintainers:
-    - felix@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
+    - felix+debian@gueux.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
   srcname: patat
   binnames:
     - patat
   visiblename: patat
-  version: 0.14.1.0
-  origversion: 0.14.1.0-1
+  version: 0.8.6.1
+  origversion: 0.8.6.1-1
   status: outdated
   maintainers:
-    - felix@debian.org
+    - felix+debian@gueux.org
   categories:
     - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: patat
-  binnames:
-    - patat
-  visiblename: patat
-  version: 0.15.2.0
-  origversion: 0.15.2.0-3
-  status: newest
-  maintainers:
-    - pkg-haskell-maintainers@lists.alioth.debian.org
-    - felix@debian.org
-    - swt@techie.net
-  categories:
-    - misc
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: patat
-  binnames:
-    - patat
-  visiblename: patat
-  version: 0.15.2.0
-  origversion: 0.15.2.0-1
-  status: newest
-  maintainers:
-    - felix@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: patat
-  binnames:
-    - patat
-  visiblename: patat
-  version: 0.15.2.0
-  origversion: 0.15.2.0-2
-  status: newest
-  maintainers:
-    - pkg-haskell-maintainers@lists.alioth.debian.org
-    - felix@debian.org
-    - swt@techie.net
-  categories:
-    - universe/misc
 - repo: aur
   srcname: patat-bin
   binname: patat-bin
@@ -146,30 +101,6 @@
     - pkg-haskell-maintainers@lists.alioth.debian.org
     - felix@debian.org
     - swt@techie.net
-  categories:
-    - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: patat
-  binnames:
-    - patat
-  visiblename: patat
-  version: 0.8.2.1
-  origversion: 0.8.2.1-1
-  status: outdated
-  maintainers:
-    - felix+debian@gueux.org
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: patat
-  binnames:
-    - patat
-  visiblename: patat
-  version: 0.8.6.1
-  origversion: 0.8.6.1-1
-  status: outdated
-  maintainers:
-    - felix+debian@gueux.org
   categories:
     - misc
 - repo: devuan_unstable
@@ -347,6 +278,23 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: patat
+  binnames:
+    - patat
+    - ghc-patat
+    - ghc-patat-devel
+    - ghc-patat-doc
+  visiblename: patat
+  version: 0.15.2.0
+  origversion: 0.15.2.0-2.fc45
+  status: newest
+  summary: Terminal-based presentations using Pandoc
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: patat
@@ -471,6 +419,47 @@
     - felix@debian.org
   categories:
     - misc
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: patat
+  binnames:
+    - patat
+  visiblename: patat
+  version: 0.8.8.0
+  origversion: 0.8.8.0-1
+  status: outdated
+  maintainers:
+    - felix@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: patat
+  binnames:
+    - patat
+  visiblename: patat
+  version: 0.14.1.0
+  origversion: 0.14.1.0-1
+  status: outdated
+  maintainers:
+    - felix@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: patat
+  binnames:
+    - patat
+  visiblename: patat
+  version: 0.15.2.0
+  origversion: 0.15.2.0-3
+  status: newest
+  maintainers:
+    - pkg-haskell-maintainers@lists.alioth.debian.org
+    - felix@debian.org
+    - swt@techie.net
+  categories:
+    - misc
 - repo: ubuntu_18_04
   subrepo: bionic/universe
   srcname: patat
@@ -547,6 +536,34 @@
   status: outdated
   maintainers:
     - felix@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: patat
+  binnames:
+    - patat
+  visiblename: patat
+  version: 0.15.2.0
+  origversion: 0.15.2.0-1
+  status: newest
+  maintainers:
+    - felix@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: patat
+  binnames:
+    - patat
+  visiblename: patat
+  version: 0.15.2.0
+  origversion: 0.15.2.0-2
+  status: newest
+  maintainers:
+    - pkg-haskell-maintainers@lists.alioth.debian.org
+    - felix@debian.org
+    - swt@techie.net
   categories:
     - universe/misc
 - repo: ubuntu_27_04
