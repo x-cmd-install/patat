@@ -1,25 +1,16 @@
-- repo: deepin_unstable
+- repo: raspbian_testing
   subrepo: main
   srcname: patat
   binnames:
     - patat
   visiblename: patat
-  version: 0.8.2.1
-  origversion: 0.8.2.1-1
-  status: outdated
+  version: 0.15.2.0
+  origversion: 0.15.2.0-3
+  status: newest
   maintainers:
-    - felix+debian@gueux.org
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: patat
-  binnames:
-    - patat
-  visiblename: patat
-  version: 0.8.6.1
-  origversion: 0.8.6.1-1
-  status: outdated
-  maintainers:
-    - felix+debian@gueux.org
+    - pkg-haskell-maintainers@lists.alioth.debian.org
+    - felix@debian.org
+    - swt@techie.net
   categories:
     - misc
 - repo: aur
@@ -101,6 +92,19 @@
     - pkg-haskell-maintainers@lists.alioth.debian.org
     - felix@debian.org
     - swt@techie.net
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: patat
+  binnames:
+    - patat
+  visiblename: patat
+  version: 0.8.6.1
+  origversion: 0.8.6.1-1
+  status: outdated
+  maintainers:
+    - felix+debian@gueux.org
   categories:
     - misc
 - repo: devuan_unstable
@@ -210,6 +214,19 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: patat
+  binnames:
+    - patat
+  visiblename: patat
+  version: 0.5.2.2
+  origversion: 0.5.2.2-2
+  status: outdated
+  maintainers:
+    - felix+debian@gueux.org
+  categories:
+    - universe/misc
 - repo: fedora_41
   subrepo: release
   srcname: patat
@@ -445,34 +462,6 @@
     - felix@debian.org
   categories:
     - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: patat
-  binnames:
-    - patat
-  visiblename: patat
-  version: 0.15.2.0
-  origversion: 0.15.2.0-3
-  status: newest
-  maintainers:
-    - pkg-haskell-maintainers@lists.alioth.debian.org
-    - felix@debian.org
-    - swt@techie.net
-  categories:
-    - misc
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: patat
-  binnames:
-    - patat
-  visiblename: patat
-  version: 0.5.2.2
-  origversion: 0.5.2.2-2
-  status: outdated
-  maintainers:
-    - felix+debian@gueux.org
-  categories:
-    - universe/misc
 - repo: ubuntu_20_04
   subrepo: focal/universe
   srcname: patat
